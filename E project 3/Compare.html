@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Blueprint: Product Comparison Layout &amp; Effect</title>
+	<meta name="description"
+		content="Blueprint: A basic responsive product grid layout with comparison functionality" />
+	<meta name="keywords"
+		content="blueprint, template, html, css, javascript, grid, layout, effect, product comparison" />
+	<meta name="author" content="Codrops" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<!--Font awesome cdn-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="Stylesheet" href="CSS/Style.css">
+	<!-- Modernizr is used for flexbox fallback -->
+
+</head>
+
+<body>
+	<!-- end of navbar -->
+	<div id="header">
+
+	</div>
+	<!-- end of navbar -->
+	<!-- Compare basket -->
+	<div class="compare-basket" style="margin-top: 140px;">
+		<button class="action action--button action--compare"><i class="fa fa-check"></i><span
+				class="action__text">Compare</span></button>
+	</div>
+	<!-- Main view -->
+	<div class="view">
+		<div class="row">
+			<div class="col-lg-12 text-center py-2" style="margin-top: 300px;color: black;">
+				<div class="container">
+					<h2 style="font-size: 3rem;letter-spacing: 3px;" class="text-center">Product Comparision Demo
+					</h2>
+					<hr style="width: 20%;margin-left: 55vh;  border: 3px solid #ef5c07f9;
+					border-radius: 5px;">
+				</div>
+			</div>
+		</div>
+		<section class="grid">
+			<!-- Products -->
+			
+			<div class="product">
+				<div class="product__info">
+					<img class="product__image" src="images/c-p-1.jpg"  alt="Product 1" />
+					<h3 class="product__title  ">Printed Lawn Shirt</h3>
+					<span class="product__year extra highlight">2022</span>
+					<span class="product__price highlight ">Rs. 1,999</span>
+				
+					<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span
+							class="action__text">Add to cart</span></button>
+				</div>
+				<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i
+						class="fa fa-plus"></i><i class="fa fa-check"></i><span
+						class="action__text action__text--invisible">Add to compare</span></label>
+			</div>
+			<div class="product">
+				<div class="product__info">
+					<img class="product__image" src="images/c-p-2.jpg" alt="Product 2" />
+					<h3 class="product__title">Meiomi Pinot Noir</h3>
+					<span class="product__year extra highlight">2013</span>
+					<span class="product__price highlight">$19.90</span>
+					<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span
+							class="action__text">Add to cart</span></button>
+				</div>
+				<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i
+						class="fa fa-plus"></i><i class="fa fa-check"></i><span
+						class="action__text action__text--invisible">Add to compare</span></label>
+			</div>
+			<div class="product">
+				<div class="product__info">
+					<img class="product__image" src="images/c-p-3.jpg" alt="Product 3" />
+					<h3 class="product__title">Embellished Lawn Shirt</h3>
+					<span class="product__year extra highlight">2022</span>
+					<span class="product__alcohol extra highlight">12%</span>
+					<span class="product__price highlight">Rs. 3,699</span>
+					<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span
+							class="action__text">Add to cart</span></button>
+				</div>
+				<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i
+						class="fa fa-plus"></i><i class="fa fa-check"></i><span
+						class="action__text action__text--invisible">Add to compare</span></label>
+			</div>
+			<div class="product">
+				<div class="product__info">
+					<img class="product__image" src="images/c-p-4.jpg" alt="Product 4" />
+					<h3 class="product__title">2 Piece Embroidered Wash </h3>
+					<span class="product__year extra highlight">2012</span>
+					<span class="product__alcohol extra highlight">13%</span>
+					<span class="product__price highlight">Rs. 3,899
+					</span>
+					<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span
+							class="action__text">Add to cart</span></button>
+				</div>
+				<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i
+						class="fa fa-plus"></i><i class="fa fa-check"></i><span
+						class="action__text action__text--invisible">Add to compare</span></label>
+			</div>
+			<div class="product">
+				<div class="product__info">
+					<img class="product__image" src="images/c-p-5.jpg" alt="Product 5" />
+					<h3 class="product__title">2 Piece Cotton Suit</h3>
+					<span class="product__year extra highlight">2009</span>
+					<span class="product__alcohol extra highlight">12%</span>
+					<span class="product__price highlight">Rs. 3,399</span>
+					<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span
+							class="action__text">Add to cart</span></button>
+				</div>
+				<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i
+						class="fa fa-plus"></i><i class="fa fa-check"></i><span
+						class="action__text action__text--invisible">Add to compare</span></label>
+			</div>
+			<div class="product">
+				<div class="product__info">
+					<img class="product__image" src="images/c-p-6.jpg" alt="Product 6" />
+					<h3 class="product__title">2 Piece Printed Cambric Suit</h3>
+					<span class="product__year extra highlight">2011</span>
+					<span class="product__alcohol extra highlight">12%</span>
+					<span class="product__price highlight">Rs. 1,462</span>
+					<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span
+							class="action__text">Add to cart</span></button>
+				</div>
+				<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i
+						class="fa fa-plus"></i><i class="fa fa-check"></i><span
+						class="action__text action__text--invisible">Add to compare</span></label>
+			</div>
+			<div class="product">
+				<div class="product__info">
+					<img class="product__image" src="images/c-p-7.jpg" alt="Product 7" />
+					<h3 class="product__title">1 Piece Printed Lawn Shirt</h3>
+					<span class="product__year extra highlight">2022</span>
+					<span class="product__alcohol extra highlight">12%</span>
+					<span class="product__price highlight">Rs. 1,299</span>
+					<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span
+							class="action__text">Add to cart</span></button>
+				</div>
+				<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i
+						class="fa fa-plus"></i><i class="fa fa-check"></i><span
+						class="action__text action__text--invisible">Add to compare</span></label>
+			</div>
+			<div class="product">
+				<div class="product__info">
+					<img class="product__image" src="images/c-p-8.jpg" alt="Product 8" />
+					<h3 class="product__title">1 Piece Printed Lawn Shirt</h3>
+					<span class="product__year extra highlight">2022</span>
+					<span class="product__alcohol extra highlight">12%</span>
+					<span class="product__price highlight">Rs. 1,199</span>
+					<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span
+							class="action__text">Add to cart</span></button>
+				</div>
+				<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i
+						class="fa fa-plus"></i><i class="fa fa-check"></i><span
+						class="action__text action__text--invisible">Add to compare</span></label>
+			</div>
+			<div class="product">
+				<div class="product__info">
+					<img class="product__image" src="images/c-p-9.jpg" alt="Product 9" />
+					<h3 class="product__title">1 Piece Printed Lawn Shirt</h3>
+					<span class="product__year extra highlight">2022</span>
+					<span class="product__alcohol extra highlight">13%</span>
+					<span class="product__price highlight">Rs. 1,199</span>
+					<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span
+							class="action__text">Add to cart</span></button>
+				</div>
+				<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i
+						class="fa fa-plus"></i><i class="fa fa-check"></i><span
+						class="action__text action__text--invisible">Add to compare</span></label>
+			</div>
+			<div class="product">
+				<div class="product__info">
+					<img class="product__image" src="images/c-p-10.jpg" alt="Product 10" />
+					<h3 class="product__title">1 Piece Printed Lawn Shirt</h3>
+					<span class="product__year extra highlight">2021</span>
+					<span class="product__alcohol extra highlight">12%</span>
+					<span class="product__price highlight">$119.90</span>
+					<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span
+							class="action__text">Add to cart</span></button>
+				</div>
+				<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i
+						class="fa fa-plus"></i><i class="fa fa-check"></i><span
+						class="action__text action__text--invisible">Add to compare</span></label>
+			</div>
+			<div class="product">
+				<div class="product__info">
+					<img class="product__image" src="images/c-p-11.jpg" alt="Product 11" />
+					<h3 class="product__title">1 Piece Printed Lawn Shirt</h3>
+					<span class="product__year extra highlight">2022</span>
+					<span class="product__alcohol extra highlight">12%</span>
+					<span class="product__price highlight">Rs. 1,299</span>
+					<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span
+							class="action__text">Add to cart</span></button>
+				</div>
+				<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i
+						class="fa fa-plus"></i><i class="fa fa-check"></i><span
+						class="action__text action__text--invisible">Add to compare</span></label>
+			</div>
+			<div class="product">
+				<div class="product__info">
+					<img class="product__image" src="images/c-p-12.jpg" alt="Product 12" />
+					<h3 class="product__title">1 Piece Printed Lawn Shirt</h3>
+					<span class="product__year extra highlight">2022</span>
+					<span class="product__alcohol extra highlight">13%</span>
+					<span class="product__price highlight">Rs. 1,199</span>
+					<button class="action action--button action--buy"><i class="fa fa-shopping-cart"></i><span
+							class="action__text">Add to cart</span></button>
+				</div>
+				<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i
+						class="fa fa-plus"></i><i class="fa fa-check"></i><span
+						class="action__text action__text--invisible">Add to compare</span></label>
+			</div>
+		</section>
+	</div><!-- /view -->
+	<!-- product compare wrapper -->
+	<section class="compare">
+		<button class="action action--close"><i class="fa fa-remove"></i><span
+				class="action__text action__text--invisible">Close comparison overlay</span></button>
+	</section>
+	   <!-- footer -->
+	   <div id="footer">
+
+    </div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+    <!-- end of footer -->
+
+	<script src="js/classie.js"></script>
+	<script src="js/main.js"></script>
+	<script src="JS/Header.js"></script>
+
+	<script src="JS/Footer.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+	<script src="JS/Sript.js"></script>
+</body>
+
+</html>
